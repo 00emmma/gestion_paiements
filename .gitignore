@@ -1,0 +1,29 @@
+# Configuration et secrets
+.env
+.env.*
+!.env.example
+config/database.php
+
+# Fichiers temporaires et dépendances
+vendor/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Fichiers générés
+.expo/
+dist/
+
+# Documents et données des utilisateurs
+uploads/*
+!uploads/.gitkeep
+
+# Configuration contenant des identifiants
+/config/database.php
+
+# Script de réinitialisation du mot de passe
+/reset_admin_password.php
+
+# Données personnelles des élèves
+/uploads/
